@@ -14,3 +14,11 @@ let myName = "Mustakim";
 8.object
 
 */
+/*
+there are many kinds of loop in JavaScript
+1. for loop
+2. while
+3. do while
+4. for in 
+5. for of 
+*/
