@@ -6,6 +6,7 @@ let myName = "Mustakim";
 // JavaScript has 8 types of data types
 /*1. string
 2.number
+
 3.boolean
 4.bigint
 5.undefine
