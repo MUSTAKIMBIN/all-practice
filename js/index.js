@@ -1,6 +1,8 @@
 let age = 14;
-if (age < 14) {
+if (age < 10) {
   console.log("you are a child");
+} else {
+  console.log("you are not a child");
 }
 let myName = "Mustakim";
 // JavaScript has 8 types of data types
