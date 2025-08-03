@@ -36,5 +36,6 @@ let student2 = {
   city: "Gaibandha",
   isStudent: true,
 };
+
 const length = Object.keys(student2).length;
 console.log(length);
