@@ -18,7 +18,7 @@ if (money >= 25000) {
 /** Problem -03 ( Medicine Planner ) */
 var lastDay = 4;
 //write your code here
-for (let i = 1; i <= lastDay; i++) {
+for (var i = 1; i <= lastDay; i++) {
   if (i % 3 === 0) {
     console.log(`${i} - medicine`);
   } else {
@@ -26,7 +26,7 @@ for (let i = 1; i <= lastDay; i++) {
   }
 }
 
-/** Problem 04 - (Delete / Store) */
+/** Problem 04 - (Devare / Store) */
 var fileName = "pdfData.jpg";
 //write your code here
 if (
@@ -49,8 +49,8 @@ console.log(studentMail);
 var experience = 30;
 var startingSalary = 45000;
 //write your code here
-let currentSalary = startingSalary;
-for (let i = 1; i <= experience; i++) {
+var currentSalary = startingSalary;
+for (var i = 1; i <= experience; i++) {
   currentSalary = currentSalary + currentSalary * 0.05;
 }
 console.log(parseFloat(currentSalary.toFixed(2)));
