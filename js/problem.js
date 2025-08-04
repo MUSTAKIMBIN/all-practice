@@ -22,3 +22,18 @@ let forutes = ["am ", "jam", "kola", "mula"];
 for (const frout of forutes) {
   console.log(frout);
 }
+
+// how many even odd
+let number = 15;
+let even = [];
+let odd = [];
+for (let i = 1; i <= number; i++) {
+  if (i % 2 === 0) {
+    even.push(i);
+    // console.log(i);
+  } else {
+    odd.push(i);
+  }
+}
+console.log("even" + even.length);
+console.log("odd" + odd.length);
