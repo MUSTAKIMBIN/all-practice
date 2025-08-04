@@ -44,3 +44,13 @@ var student = { name: "jhankar", roll: 1014, department: "cse" };
 //write your code here
 var studentMail = `${student.name}${student.roll}.${student.department}@ph.ac.bd`;
 console.log(studentMail);
+
+/** Problem 06 :  (Current Salary )  */
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
+let currentSalary = startingSalary;
+for (let i = 1; i <= experience; i++) {
+  currentSalary = currentSalary + currentSalary * 0.05;
+}
+console.log(parseFloat(currentSalary.toFixed(2)));
