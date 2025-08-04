@@ -41,9 +41,39 @@ console.log("odd" + odd.length);
 // find length of thos name less than 4 charecter
 var names = ["Tom", "Alex", "John", "Al", "Rafi"];
 let finalNames = [];
-for (name of names) {
+for (let name of names) {
   if (name.length < 4) {
     finalNames.push(name);
   }
 }
 console.log(finalNames);
+
+// ultimate array problem
+let sumOfEvenNumbers = 0;
+let sumOfOddNumbers = 0;
+let newEven = [];
+let deviedBy5 = [];
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    sumOfEvenNumbers = i + sumOfEvenNumbers;
+    newEven.push(i);
+  }
+
+  if (i % 2 !== 0) {
+    if (i === 49) {
+      break;
+    }
+    sumOfOddNumbers = i + sumOfOddNumbers;
+  }
+  if (i % 5 === 0) {
+    deviedBy5.push(i);
+  }
+}
+for (let i = newEven.length - 1; i >= 0; i--) {
+  console.log("olo" + i);
+}
+console.log(sumOfEvenNumbers);
+console.log(sumOfOddNumbers);
+console.log(newEven);
+console.log(deviedBy5);
