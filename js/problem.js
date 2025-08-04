@@ -37,3 +37,13 @@ for (let i = 1; i <= number; i++) {
 }
 console.log("even" + even.length);
 console.log("odd" + odd.length);
+
+// find length of thos name less than 4 charecter
+var names = ["Tom", "Alex", "John", "Al", "Rafi"];
+let finalNames = [];
+for (name of names) {
+  if (name.length < 4) {
+    finalNames.push(name);
+  }
+}
+console.log(finalNames);
