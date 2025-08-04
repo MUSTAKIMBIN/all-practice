@@ -14,3 +14,14 @@ if (money >= 25000) {
 } else {
   console.log("Chocolate");
 }
+
+/** Problem -03 ( Medicine Planner ) */
+var lastDay = 4;
+//write your code here
+for (let i = 1; i <= lastDay; i++) {
+  if (i % 3 === 0) {
+    console.log(`${i} - medicine`);
+  } else {
+    console.log(`${i} - rest`);
+  }
+}
