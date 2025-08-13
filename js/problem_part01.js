@@ -24,3 +24,14 @@ for (let firendLength of firendsLengths) {
   }
 }
 console.log(smallestName);
+
+// Task-3:
+// Your task is to calculate the total budget required to buy electronics:
+const laptop = 35000;
+const tablet = 15000;
+const mobile = 20000;
+function calculateElectronicsBudget(laptop, mobile, tablet) {
+  return laptop + mobile + tablet;
+}
+const totalMoney = calculateElectronicsBudget(laptop, tablet, mobile);
+console.log(totalMoney);
